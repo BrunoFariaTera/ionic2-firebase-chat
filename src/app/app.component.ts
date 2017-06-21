@@ -25,6 +25,7 @@ export class MyApp {
     authService.auth.subscribe((authState: FirebaseAuthState) => {
       if (authState) {
         userService.currentUser.subscribe((user: User) => {
+          //Teste
           this.currentUser = user;
           this.rootPage = HomePage;
         })
