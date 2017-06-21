@@ -1,0 +1,13 @@
+{
+  "name": "Faria Chat",
+  "short_name": "Chat",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+    "src": "assets/images/icon-chat.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#1e226b",
+  "theme_color": "#1e226b"
+}
